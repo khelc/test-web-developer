@@ -1,0 +1,58 @@
+.wrapper {
+    margin: 15px;
+}
+
+.header {
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+.header .logo img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.header .navigation button {
+    float: right;
+    transform: skew(-20deg);
+    background-color: white;
+    color: black;
+    border: hidden;
+    width: 20%;
+    height: 100%;
+}
+
+.header .navigation .button .buttonText {
+    transform: skew(20deg);
+}
+
+.header .navigation button:hover {
+    color: #01a7e1;
+}
+
+.header .navigation button:active {
+    background-color: #01a7e1;
+    outline-color: #01a7e1;
+}
+
+.header .navigation button:focus {
+    background-color: #01a7e1;
+    outline-width: 0px;
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .header .logo img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .header .navigation {
+        margin-top: 20px;
+    }
+}
