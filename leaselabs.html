@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="stylesheet" href="css/mainstyle.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="js/jquery-1.9.0.js"></script>
 </head>
 <body>
     <div class="wrapper container-fluid">
         <div class="row header">
             <div class="col-md-5 logo">
-                <img src="images/leaselabs_logo_fullstack_rgb.png">
+                <img src="res/images/leaselabs_logo_fullstack_rgb.png">
             </div>
             <div class="col-md-7 navigation">
                 <button class="button"><div class="buttonText">SPECIALS</div></button>
@@ -23,6 +24,38 @@
         <div class="row content">
             <div class="col-md-4 sidemenu">
                 <div class="row subnavigation">
+                    <ul class="subnav">
+                        <li class="treeview">
+                            <a href="#">SUBNAV</a>
+                            <span class="arrow"></span>
+                            <ul class="treeview-menu">
+                                <li class="treeview">
+                                    <a href="#">Link 1</a>
+                                </li>
+                                <li class="treeview">
+                                    <a href="#">Link 2</a>
+                                </li>
+                                <li class="treeview">
+                                    <a href="#">Link 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="treeview active">
+                            <a href="#">RELATED LINKS</a>
+                            <span class="arrow"></span>
+                            <ul class="treeview-menu">
+                                <li class="treeview">
+                                    <a href="#">Link 1</a>
+                                </li>
+                                <li class="treeview">
+                                    <a href="#">Link 2</a>
+                                </li>
+                                <li class="treeview">
+                                    <a href="#">Link 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="col-md-8 headings">
@@ -62,5 +95,5 @@
     </div>
 </body>
 
-<script src="app.js"></script>
+<script src="js/app.js"></script>
 </html>
